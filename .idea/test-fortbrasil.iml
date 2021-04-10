@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test_api_fortbrasil/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/test_api_fortbrasil/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/test_api_fortbrasil/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/test_api_fortbrasil/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/laravel/ui" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/fideloper/proxy" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/fruitcake/laravel-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/facade/ignition-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/facade/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/http-client-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/facade/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phar-io/version" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
