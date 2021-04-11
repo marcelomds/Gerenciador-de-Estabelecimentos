@@ -21,11 +21,13 @@ Gerar uma nova chave da aplicação
 
     php artisan key:generate
 
-composer install && npm run dev
+    composer install && npm run dev
 
--- Criar as Tabelas: php artisan:migrate
+Criar as Tabelas
+
+    php artisan:migrate
 
 Iniciar o Servidor
 
-php artisan serve
+    php artisan serve
 
