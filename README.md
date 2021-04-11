@@ -4,14 +4,16 @@ Teste realizado num processo de seleção da empresa FortBrasil
 # FRONT-END em VueJS
 digite cd manages_establishments
 
-npm install && npm run dev
+    npm install && npm run dev
 
 --------------------------------------------------------------
 
 # API - PHP / Laravel
 digite cd test_api_fortbrasil
 
-composer install && npm run dev
+Instalar os pacotes composer
+
+    composer install && npm run dev
 
 Copie o arquivo env de exemplo e faça as alterações de configuração necessárias no arquivo .env
 
@@ -20,8 +22,6 @@ Copie o arquivo env de exemplo e faça as alterações de configuração necess�
 Gerar uma nova chave da aplicação
 
     php artisan key:generate
-
-    composer install && npm run dev
 
 Criar as Tabelas
 
