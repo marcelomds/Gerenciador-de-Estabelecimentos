@@ -16,6 +16,7 @@ Instalar os pacotes composer
     composer install && npm run dev
 
 Copie o arquivo env de exemplo e faça as alterações de configuração necessárias no arquivo .env
+Para criar seu banco de dados da Aplicação
 
     cp .env.example .env
 
