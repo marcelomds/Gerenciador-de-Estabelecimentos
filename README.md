@@ -9,7 +9,10 @@ digite cd manages_establishments
 --------------------------------------------------------------
 
 # API - PHP / Laravel
-digite cd test_api_fortbrasil
+
+Acessar a pasta da Api
+
+    digite cd test_api_fortbrasil
 
 Instalar os pacotes composer
 
