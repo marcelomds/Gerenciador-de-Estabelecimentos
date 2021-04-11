@@ -61,7 +61,6 @@
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/doctrine/lexer" />
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/doctrine/instantiator" />
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/psr/event-dispatcher" />
-      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/asm89/stack-cors" />
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/swiftmailer/swiftmailer" />
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/league/flysystem" />
@@ -78,7 +77,6 @@
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/opis/closure" />
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/fideloper/proxy" />
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/deprecation-contracts" />
-      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/fruitcake/laravel-cors" />
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/string" />
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/facade/ignition-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/mime" />
@@ -115,6 +113,9 @@
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phar-io/manifest" />
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/symfony/translation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/laravel/sanctum" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/test_api_fortbrasil/vendor/fruitcake/laravel-cors" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

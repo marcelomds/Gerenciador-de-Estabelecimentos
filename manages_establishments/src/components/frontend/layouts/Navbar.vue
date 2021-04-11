@@ -23,8 +23,10 @@
             <template #button-content>
               <em>Usuário</em>
             </template>
-            <b-dropdown-item href="#">Profile</b-dropdown-item>
-            <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+
+            <b-dropdown-item>
+              <router-link :to="{name: 'login'}">Logout</router-link>
+            </b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>
@@ -34,8 +36,11 @@
 </template>
 
 <script>
+import axios from "axios";
+import {URL_BASE} from "../../config/config";
+
 export default {
-  name: "NavbarComponent"
+
 }
 </script>
 

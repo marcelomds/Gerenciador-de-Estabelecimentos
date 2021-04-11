@@ -4,10 +4,11 @@ namespace App\Models\Establishment;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Establishment extends Model
 {
-    use HasFactory;
+    use HasFactory, SoftDeletes;
 
     protected $fillable = [
         'company_name',
@@ -23,4 +24,5 @@ class Establishment extends Model
         'city',
         'zipcode'
     ];
+
 }

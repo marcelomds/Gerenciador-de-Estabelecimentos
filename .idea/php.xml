@@ -55,7 +55,6 @@
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/psr/event-dispatcher" />
-      <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/asm89/stack-cors" />
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/psr/log" />
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/league/flysystem" />
@@ -72,7 +71,6 @@
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/opis/closure" />
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/fideloper/proxy" />
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/fruitcake/laravel-cors" />
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/symfony/string" />
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/facade/ignition-contracts" />
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/symfony/mime" />
@@ -109,6 +107,9 @@
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/test_api_fortbrasil/vendor/fruitcake/laravel-cors" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />

@@ -1,49 +1,62 @@
 <template>
   <div>
+    <navbar></navbar>
+
     <div class="col-12 mt-3">
       <div class="card">
         <div class="card-header">
-          <h4 class="text-center">Estabelecimentos</h4>
+          <h4 class="text-center">Lista de Estabelecimentos</h4>
         </div>
+
+        <div class="container row mt-2 search-address">
+          <div class="col-md-4">
+            <form>
+              <input type="text" class="form-control" placeholder="Pesquisar: Digite o Endereço"
+                     v-model="filterAddress">
+            </form>
+          </div>
+        </div>
+
+
         <div class="card-body">
           <div class="table-responsive">
             <table class="table table-bordered">
-              <thead>
+              <thead class="table-dark">
               <tr>
                 <th width="150">Razão Social</th>
                 <th width="200">Nome Fantasia</th>
-                <th>CPF / CNPJ</th>
-                <th width="200">Telefone</th>
-                <th>E-mail</th>
+                <th width="200">CPF / CNPJ</th>
+                <th width="180">Telefone</th>
+                <th width="150">E-mail</th>
                 <th width="400">Endereço</th>
-                <th width="160">Ações</th>
+                <th width="120">Ações</th>
               </tr>
               </thead>
-              <tbody v-if="establishments.length > 0">
-              <tr v-for="(establishment,key) in establishments" :key="key">
+              <tbody v-if="filterEstablishmentsAddress.length > 0">
+              <tr v-for="(establishment,key) in filterEstablishmentsAddress" :key="key">
                 <td>{{ establishment.company_name }}</td>
                 <td>{{ establishment.fantasy_name }}</td>
                 <td>{{ establishment.document }}</td>
-                <td>{{ establishment.phone | phone }}</td>
+                <td>{{ establishment.phone }}</td>
                 <td>{{ establishment.email }}</td>
                 <td>{{ establishment.street }},
                   {{ establishment.number }} -
-                  {{ establishment.complement }} -
                   {{ establishment.neighborhood }} -
                   {{ establishment.city }} -
                   {{ establishment.state }}
                 </td>
                 <td>
-                  <router-link :to='{name: "establishment-edit", params:{id:establishment.id}}' class="btn btn-warning btn-sm">Editar</router-link>
+                  <router-link :to='{name: "establishment-edit", params:{id:establishment.id}}'
+                               class="btn btn-warning btn-sm"><i title="Editar" class="fas fa-edit"></i></router-link>
                   <button type="button" @click.prevent="deleteEstablishment(establishment.id)"
-                          class="btn btn-danger btn-sm">Delete
+                          class="btn btn-danger btn-sm"><i title="Excluir" class="fas fa-trash"></i>
                   </button>
                 </td>
               </tr>
               </tbody>
               <tbody v-else>
               <tr>
-                <td colspan="8" class="text-center">Nenhum estabelecimento cadastrado</td>
+                <td colspan="7" class="text-center">Nenhum estabelecimento cadastrado</td>
               </tr>
               </tbody>
             </table>
@@ -51,18 +64,25 @@
         </div>
       </div>
     </div>
-    <router-view></router-view>
 
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
+import Navbar from "../../layouts/Navbar";
 import axios from 'axios';
+import {URL_BASE} from "../../../config/config";
 
 export default {
+  components: {
+    Navbar
+  },
   data() {
     return {
-      establishments: []
+      establishments: [],
+      filterAddress: '',
+
     }
   },
 
@@ -82,7 +102,8 @@ export default {
 
     // Listar Todos os Estabelecimentos Cadastrados
     getEstablishments() {
-      axios.get('http://127.0.0.1:8000/api/establishment')
+
+      axios.get(`${URL_BASE}/establishment`)
         .then(response => {
           this.establishments = response.data;
         })
@@ -92,18 +113,48 @@ export default {
         })
     },
 
+    // Deletar Estabelecimento
     deleteEstablishment(id) {
-      axios.delete(`http://127.0.0.1:8000/api/establishment/${id}`)
-        .then(response => {
-          this.getEstablishments()
-        }).catch(error => {
-        console.log(error)
+      this.$swal.fire({
+        title: 'Excluir este Ítem?',
+        icon: 'error',
+        showCancelButton: true,
+        confirmButtonColor: '#38AC6D',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Confirmar',
+        cancelButtonText: 'Cancelar',
       })
+
+        .then((result) => {
+          if (result.isConfirmed) {
+            axios.delete(`${URL_BASE}/establishment/${id}`)
+              .then(response => {
+                this.getEstablishments()
+              }).catch(error => {
+              console.log(error)
+            })
+          }
+        })
+    }
+  },
+
+    computed: {
+    // Filtrar Estabelecimentos por Endereço
+      filterEstablishmentsAddress() {
+        if (this.filterAddress === '') {
+          return this.establishments;
+        }
+
+        return this.establishments.filter(address => {
+          return address.street.toLowerCase().includes(this.filterAddress)
+        });
+      }
     }
   }
-}
 </script>
 
 <style scoped>
-
+.search-address {
+  margin-left: -9px;
+}
 </style>

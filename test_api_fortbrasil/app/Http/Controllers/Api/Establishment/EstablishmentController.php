@@ -20,7 +20,11 @@ class EstablishmentController extends Controller
         $this->repository = $repository;
     }
 
-
+    /**
+     * @return \Illuminate\Http\JsonResponse
+     *
+     * Listar Todos os Estabelecimentos
+     */
     public function index()
     {
         try {
@@ -32,7 +36,12 @@ class EstablishmentController extends Controller
         return response()->json($establishments, 200);
     }
 
-
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     *
+     * Cadastrar Novo Estabelecimento
+     */
     public function store(Request $request)
     {
         try {
@@ -44,16 +53,27 @@ class EstablishmentController extends Controller
         return response()->json([
             'success' => 'Estabelecimento cadastrado com sucesso',
             'establishment' => $establishment
-        ]);
+        ], 201);
     }
 
-
+    /**
+     * @param Establishment $establishment
+     * @return \Illuminate\Http\JsonResponse
+     *
+     * Mostrar dados do Estabelecimento
+     */
     public function show(Establishment $establishment)
     {
         return response()->json($establishment);
     }
 
-
+    /**
+     * @param Request $request
+     * @param $id
+     * @return \Illuminate\Http\JsonResponse
+     *
+     * Atualização de Estabelecimento
+     */
     public function update(Request $request, $id)
     {
         try {
@@ -68,7 +88,12 @@ class EstablishmentController extends Controller
         ], 200);
     }
 
-
+    /**
+     * @param $id
+     * @return \Illuminate\Http\JsonResponse
+     *
+     * Deletar Estabelecimento
+     */
     public function destroy($id)
     {
         try {
