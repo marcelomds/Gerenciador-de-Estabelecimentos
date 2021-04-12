@@ -1,6 +1,10 @@
 # Gerenciador-de-Estabelecimentos
 Teste realizado num processo de seleção da empresa FortBrasil
 
+Clonar o Projeto
+
+    git clone https://github.com/marcelomds/Gerenciador-de-Estabelecimentos
+
 # FRONT-END em VueJS
 digite cd manages_establishments
 
@@ -18,7 +22,7 @@ Instalar os pacotes composer
 
     composer install && npm run dev
 
-Copie o arquivo env de exemplo e faça as alterações de configuração necessárias no arquivo .env
+Copie o arquivo .env de exemplo e faça as alterações de configuração necessárias no arquivo .env
 Para criar seu banco de dados da Aplicação
 
     cp .env.example .env
